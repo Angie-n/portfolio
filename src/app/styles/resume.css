@@ -1,0 +1,44 @@
+#resume {
+    background-image: url('../images/desk_background.jpg');
+    background-position: center;
+}
+
+#resume-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#resume a {
+    width: 15%;
+    height: max(30px, 4vw);
+    border-radius: 2vw;
+    border: 0px;
+    background-color: var(--light-blue);
+    color: white;
+    font-size: max(28px, 4vw);
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#resume a:hover {
+    background-color: var(--teal);
+}
+
+#resume h2 {
+    font-size: max(20px, 4vw);
+}
+
+@media screen and (max-width: 750px) {
+    #resume-info {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    #resume button {
+        width: 40%;
+    }
+}
