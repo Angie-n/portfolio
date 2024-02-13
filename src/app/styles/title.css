@@ -1,0 +1,52 @@
+#title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#title h1 {
+    font-size: max(4vw, 30px);
+    margin: 0;
+}
+
+#title p {
+    font-size: max(4vw, 30px);
+    margin: 0;
+}
+
+#intro-text {
+    font-family: VastShadow;
+    background-color: rgba(32, 32, 32, 0.5);
+}
+
+#binary {
+    font-family: 'Times New Roman', Times, serif;
+    z-index: -1;
+    color: var(--gray);
+    text-align: start;
+    position: absolute;
+    word-break: break-all;
+    height: 100vh;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+#binary p {
+    font-size: max(5vw, 50px, 8vh);
+    transition: color 5s linear;
+}
+
+.binary-selected {
+    animation: color-change 10s ease-in-out;
+}
+  
+@keyframes color-change {
+    0% { color: var(--gray); }
+    50% { color: var(--light-blue); }
+    100% { color: var(--gray); }
+}
