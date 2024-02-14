@@ -29,7 +29,8 @@
 }
 
 #resume h2 {
-    font-size: max(20px, 4vw);
+    font-size: max(20px, 2vw);
+    font-family: RussoOne;
 }
 
 @media screen and (max-width: 750px) {
