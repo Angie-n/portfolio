@@ -7,6 +7,7 @@ const Title = dynamic(() => import('./components/title'), {
 import Intro from "./components/about";
 import Resume from './components/resume';
 import Projects from './components/projects';
+import Socials from './components/socials';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Intro />
       <Resume />
       <Projects />
+      <Socials />
     </main>
   );
 }

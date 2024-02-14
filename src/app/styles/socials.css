@@ -1,0 +1,17 @@
+#socials {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+#socials a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+#socials a:hover {
+    color: var(--muted-teal);
+}
