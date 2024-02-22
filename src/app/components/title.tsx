@@ -29,7 +29,7 @@ export default function Title() {
             <div id='binary'>{getBinaryText()}</div>
             <div id='intro-text'>
                 <h1>Hi, I&apos;m Angie</h1>
-                <p>Web Developer</p>
+                <p>Full Stack Developer</p>
             </div>
         </div>
     )
