@@ -61,3 +61,8 @@ h2 {
 .darken {
   background-color: rgba(0,0,0,0.5);
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
