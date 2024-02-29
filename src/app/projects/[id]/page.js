@@ -75,7 +75,7 @@ export default function ProjectContainer() {
                     </div>
                     <div>{project.description.map((s, i) => {return <p key={'project-' + index + '-description-' + i}>{s}</p>})}</div>
                 </div>
-                <Link href={"/"}><button className="project-exit">X</button></Link>
+                <Link href={"/#project"}><button className="project-exit">X</button></Link>
             </div>
         )
     }
